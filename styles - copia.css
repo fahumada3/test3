@@ -1,0 +1,690 @@
+/* General reset and font settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  line-height: 1.6;
+  background-color: rgb(163, 23, 23); /* Set background color */
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Navbar */
+.navbarcontainer {
+  background: rgb(163, 23, 23);
+  width: 1076px;
+  height: 28px;
+  top: 46px;
+  left: 188px;
+  position: absolute;
+  opacity: 1; 
+}
+
+/* Digital Agency */
+.digital-agency {
+  width: 170px;
+  height: 24px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 48px;
+  left: 188px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Home */
+.home {
+  width: 48px;
+  height: 28px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 46px;
+  left: 860px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* About */
+.about {
+  width: 50px;
+  height: 28px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 46px;
+  left: 952px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Testimonials */
+.testimonials {
+  width: 103px;
+  height: 28px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 46px;
+  left: 1046px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Contact */
+.contact {
+  width: 65px;
+  height: 22px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 48px;
+  left: 1199px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Hero Section */
+.herocontainer {
+  width: 1065px;
+  height: 450px;
+  top: 171px;
+  left: 188px;
+  position: absolute;
+  gap: 0px;
+  opacity: 1; /* Set opacity */
+  background-color: rgb(163, 23, 23); /* Background color */
+}
+
+/* Hero Image */
+.hero-image {
+  width: 450px;
+  height: 450px;
+  position: absolute; /* Position the image absolutely within the body */
+  top: 171px; /* Position it relative to the body */
+  left: 803px; /* Position it relative to the body */
+  gap: 0px; /* No gap around the image */
+  opacity: 1; /* Full opacity */
+}
+
+/* Hero Title */
+.hero-title {
+  width: 540px;
+  height: 192px;
+  position: absolute; /* Position it absolutely */
+  top: 213px; /* Position it relative to the body */
+  left: 188px; /* Position it relative to the body */
+  gap: 0px; /* No gap around the text */
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Hero Subtext */
+.hero-subtext {
+  width: 525px;
+  height: 56px;
+  position: absolute; /* Position it absolutely */
+  top: 429px; /* Position it relative to the body */
+  left: 188px; /* Position it relative to the body */
+  gap: 0px; /* No gap around the text */
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Hero Button */
+.hero-button {
+  width: 167px;
+  height: 48px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 524px;
+  left: 188px;
+  gap: 0px;
+  border-radius: 10px; /* Fully rounded edges */
+  opacity: 1; /* Full opacity */
+  background-color: #3F3434; /* Background color */
+  border: none; /* Remove border */
+}
+
+/* Hero Button Link */
+.hero-button-link {
+  display: block; /* Ensure the link fills the button */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 48px; /* Center text vertically */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from the link */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Companies Section */
+.companiescontainer {
+  width: 915px;
+  height: 118px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 778px;
+  left: 263px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  background-color: rgb(163, 23, 23); /* Background color */
+}
+
+/* Companies Image */
+.companies-image {
+  width: 915px;
+  height: 118px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 778px;
+  left: 263px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+}
+
+/* Branding Section */
+.brandingcontainer {
+  width: 1065px;
+  height: 450px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1032px;
+  left: 188px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  background-color: rgb(163, 23, 23); /* Background color */
+}
+
+/* Branding Image */
+.branding-image {
+  width: 450px;
+  height: 450px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1032px;
+  left: 188px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+}
+
+/* Branding Title */
+.branding-title {
+  width: 435.69px;
+  height: 102.35px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1129px;
+  left: 817.31px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: white; /* Set the text color to white, if needed */
+}
+
+/* Branding Subtext */
+.branding-subtext {
+  width: 392.22px;
+  height: 83.16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1256.93px;
+  left: 817.31px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white, if needed */
+}
+
+/* Costume Section */
+.costumecontainer {
+  width: 1052px;
+  height: 427px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1572px;
+  left: 188px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  background-color: rgb(163, 23, 23); /* Background color (if needed) */
+}
+
+/* Costume Image */
+.costume-image {
+  width: 1052px;
+  height: 427px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 1572px;
+  left: 188px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+}
+
+/* Contact Section */
+.contactcontainer {
+  width: 1065px;
+  height: 450.43px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2044px;
+  left: 181px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  background-color: rgb(173, 167, 167); /* Background color (if needed) */
+  border-radius: 10px; /* Rounds the edges */
+}
+
+/* Contact Image */
+.contact-image {
+  width: 450px;
+  height: 450.43px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2044px;
+  left: 256px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+}
+
+/* Contact Title */
+.contact-title {
+  width: 361px;
+  height: 102.1px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2144.1px;
+  left: 796px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Contact Subtext */
+.contact-subtext {
+  width: 360px;
+  height: 52.05px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2300.21px;
+  left: 796px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white */
+}
+
+/* Contact Button */
+.contact-button {
+  width: 167px;
+  height: 48px;
+  position: absolute;
+  top: 2398px;
+  left: 796px;
+  gap: 0px;
+  border-radius: 10px; 
+  opacity: 1;
+  background-color: rgb(163, 23, 23);
+  border: none;
+  display: flex; /* Add flex display to align content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+/* Contact Button Link */
+.contact-button-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 48px; /* Center text vertically */
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Footer */
+.footercontainer {
+  width: 1440px;
+  height: 443px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2519px;
+  left: -7px;
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  background-color: rgb(133, 121, 120); /* Background color (adjust as needed) */
+}
+
+/* Footer Title */
+.footertittle1-1 {
+  width: 139.74px;
+  height: 26px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2624px; /* Position it relative to the body */
+  left: 176.32px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext */
+.footersubtext1-1 {
+  width: 189.29px;
+  height: 48px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2690px; /* Position it relative to the body */
+  left: 176.32px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Title Column 2 */
+.footertittle2-1 {
+  width: 102.07px;
+  height: 26px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2624px; /* Position it relative to the body */
+  left: 544px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 2 */
+.footersubtext2-1 {
+  width: 55.77px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2682px; /* Position it relative to the body */
+  left: 544px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 2 Item 2 */
+.footersubtext2-2 {
+  width: 35.78px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2722px; /* Position it relative to the body */
+  left: 544px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 2 Item 3 */
+.footersubtext2-3 {
+  width: 141px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2762px; /* Position it relative to the body */
+  left: 544px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 2 Item 4 */
+.footersubtext2-4 {
+  width: 69.45px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2802px; /* Position it relative to the body */
+  left: 544px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Title Column 3 Item 1 */
+.footertittle3-1 {
+  width: 85.23px;
+  height: 26px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2624px; /* Position it relative to the body */
+  left: 863px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 3 Item 1 */
+.footersubtext3-1 {
+  width: 69.37px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2682px; /* Position it relative to the body */
+  left: 863px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 3 Item 2 */
+.footersubtext3-2 {
+  width: 58.47px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2722px; /* Position it relative to the body */
+  left: 863px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 3 Item 3 */
+.footersubtext3-3 {
+  width: 63.43px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2762px; /* Position it relative to the body */
+  left: 863px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Subtext Column 3 Item 4 */
+.footersubtext3-4 {
+  width: 84.24px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2802px; /* Position it relative to the body */
+  left: 863px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+/* Footer Title Column 4 Item 1 */
+.footertittle4-1 {
+  width: 123.19px;
+  height: 26px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2624px; /* Position it relative to the body */
+  left: 1126px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27.5px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+.footersubtext4-1 {
+  width: 68.68px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2682px; /* Position it relative to the body */
+  left: 1126px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+.footersubtext4-2 {
+  width: 80.67px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2722px; /* Position it relative to the body */
+  left: 1126px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+.footersubtext4-3 {
+  width: 81.76px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2762px; /* Position it relative to the body */
+  left: 1126px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+.footersubtext4-4 {
+  width: 57.78px;
+  height: 16px;
+  position: absolute; /* Ensure it's positioned correctly */
+  top: 2802px; /* Position it relative to the body */
+  left: 1126px; /* Position it relative to the body */
+  gap: 0px;
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is included */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  color: white; /* Set the text color to white if needed */
+}
+
+
+
